@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var label: UILabel?
+    
     var http: RoutingHTTPServer;
     
     required init(coder aDecoder: NSCoder) {
@@ -21,10 +23,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        label?.text = Functions.getIPAddress()
+        
         http.setPort(8000)
         http.setDefaultHeader("Server", value: "Fun Game/1.0")
-        
-        
         
         http.get("/hello", withBlock: { (request: RouteRequest!, response: RouteResponse!) -> Void in
             response.setHeader("Content-Type", value: "text/plain")

@@ -6,22 +6,30 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>C8B20743-322A-4534-A86A-A79CDB7444D2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Fun Game</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>454502C9D3204F34236A2810E8F2F96DDA933590</key>
+		<string>https://github.com/lhaber9/Fun-Game.git</string>
 		<key>71CFC0DE1DEFC877B0C5B9F98B971EBA2921D608</key>
 		<string>https://github.com/robbiehanson/CocoaHTTPServer.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Fun Game.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>454502C9D3204F34236A2810E8F2F96DDA933590</key>
+		<string>../..</string>
 		<key>71CFC0DE1DEFC877B0C5B9F98B971EBA2921D608</key>
-		<string>CocoaHTTPServer/</string>
+		<string>../..CocoaHTTPServer/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/robbiehanson/CocoaHTTPServer.git</string>
+	<string>https://github.com/lhaber9/Fun-Game.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>71CFC0DE1DEFC877B0C5B9F98B971EBA2921D608</string>
+	<string>454502C9D3204F34236A2810E8F2F96DDA933590</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -31,6 +39,14 @@
 			<string>71CFC0DE1DEFC877B0C5B9F98B971EBA2921D608</string>
 			<key>IDESourceControlWCCName</key>
 			<string>CocoaHTTPServer</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>454502C9D3204F34236A2810E8F2F96DDA933590</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Fun%20Game</string>
 		</dict>
 	</array>
 </dict>
